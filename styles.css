@@ -924,4 +924,8 @@ nav {
     .hover {
         margin: 10px;
     }
+
+    .aboutme {
+        min-width: 0;
+    }
 }
