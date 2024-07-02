@@ -1,16 +1,297 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="/styles.css">
+    <script src="https://kit.fontawesome.com/2ca8dfbdd4.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
-    <div class="container">
-        <div class="box">
-            hello
+    <section class="aboutme">
+        <nav>
+            <div class="container">
+                <img src="/assets/DL logo.png" alt="DL logo" class="dllogo">
+                <h2 class="title">David Lee</h2>
+            </div>
+            <ul class="nav__link--list">
+                <div class="navitem">
+                    <a href="#languages">Languages</a>
+                </div>
+                <div class="navitem">
+                    <a href="#projectscontainer">Projects</a>
+                </div>
+                <div class="contact">
+                    <a href="">Contact</a>
+                </div>
+            </ul>
+        </nav>
+        <div class="row">
+            <div class="aboutmeinfo">
+                <div class="profilepiccontainer">
+                    <img src="/assets/profilepic.jpg" alt="profile pic" class="profilepic"><img/>
+                </div>
+                <h1 class="intro">Hi, I'm <span class="text--blue">David Hyesung Lee</span></h1>
+                <p class="introdescription">I'm a <span class="text--blue">frontend web developer</span> who loves to design and build innovative web applications using various technologies!</p>
+                <ul class="sociallinks">
+                    <a href="https://linkedin.com/in/dvdhyelee/" class="sociallink" target="_blank">
+                        <img src="/assets/linkedin.png" alt="linked in img" class="sociallinkimg" id="sociallink1">
+                    </a>
+                    <a href="https://github.com/DvdHLee" class="sociallink" target="_blank">
+                        <img src="/assets/github.png" alt="github img" class="sociallinkimg" id="sociallink2">
+                    </a>
+                    <button class="emailbutton">
+                        <img src="/assets/mail.png" alt="mail img" class="sociallinkimg" id="sociallink3">
+                    </button>
+                </ul>
+            </div>
+            <div class="animationcontainer">
+                <div class="phone">
+                    <div class="speaker"></div>
+                    <div class="screen">
+                        <p class="phonetitle">Projects</p>
+                        <div class="appsrow">
+                            <div class="app">
+                                <div id="mcapp">
+                                    <img id="mcappimg" src="/assets/mclogo.png" alt="mc logo"></img>
+                                </div>
+                            </div>
+                            <div class="app">
+                                <div id="portapp">
+                                    <img id="portappimg" src="/assets/portfolio.svg" alt="portfolio logo"></img>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="appsrow">
+                            <div class="app">
+                                <div id="a4aapp">
+                                    <img id="a4aappimg" src="/assets/africair.png" alt="africair logo"></img>
+                                </div>
+                            </div>
+                            <div class="app">
+                                <div id="whoapp">
+                                    <img id="whoappimg" src="/assets/spotifylogo.png" alt="spotify logo"></img>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="appsrow">
+                            <div class="app">
+                                <div id="appicon">
+                                    <img id="appicon" src="/assets/ttticon.png" alt="tic tac toe logo"></img>
+                                </div>
+                            </div>
+                            <div class="app">
+                                <div id="appicon">
+                                    <img id="appicon" src="/assets/moreorlessicon.PNG" alt="more or less logo"></img>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="screencover">
+                        <div class="applinkspacer">
+                            <div class="appsrow">
+                                <a href="https://arizonacoderz.github.io/meal-chewser/" class="app" title="" target="_blank" rel="noreferrer noopener"><div></div></a>
+                                <a href="https://dvdhlee.github.io/Portfolio/" class="app" title="" target="_blank" rel="noreferrer noopener"><div></div></a>
+                            </div>
+                            <div class="appsrow">
+                                <a href="https://drive.google.com/file/d/16ws097UPsKGsoiWp0mY3CRUhREOfvSxP/view" class="app" title="" target="_blank" rel="noreferrer noopener"><div></div></a>
+                                <a href="https://whos-who.vercel.app/" class="app" title="" target="_blank" rel="noreferrer noopener"><div></div></a>
+                            </div>
+                            <div class="appsrow">
+                                <a href="https://dvdhlee.github.io/TicTacToe/" class="app" title="" target="_blank" rel="noreferrer noopener"><div></div></a>
+                                <a href="https://dvdhlee.github.io/Moreorless/" class="app" title="" target="_blank" rel="noreferrer noopener"><div></div></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <p class="hover">&#60;-Hover-&#62; <br></br> and Click</p>
+                <div class="book">
+                    <div class="cover">
+                        <p>Resume Link</p>
+                    </div>
+                    <div class="page"></div>
+                    <div class="page"></div>
+                    <div class="page"></div>
+                    <a class="contentpage" href="https://drive.google.com/file/d/19INX5vBFRYnA-oDf6PRfu5r0_DGz0Kji/view" title="" target="_blank" rel="noreferrer noopener">
+                        <img src='/assets/myresume.png' alt="my resume"></img>
+                    </a>
+                    <div class="back-cover"></div>
+                </div>
+            </div>
         </div>
-    </div>
+    </section>
+    <section>
+        <div class="languages" id="languages">
+            <div class="row">
+                <h1 class="section__title">This is my <span class="text--blue">technology stack</span></h1>
+                <div class="language__list">
+                    <div class="language">
+                        <img src="/assets/html.png" alt="html icon" class="languageicon">
+                        <span class="language__name">HTML</span>
+                    </div>
+                    <div class="language">
+                        <img src="/assets/css-3.png" alt="css icon" class="languageicon">
+                        <span class="language__name">CSS</span>
+                    </div>
+                    <div class="language">
+                        <img src="/assets/js.png" alt="js icon" class="languageicon">
+                        <span class="language__name">JavaScript</span>
+                    </div>
+                    <div class="language">
+                        <img src="/assets/typescript.png" alt="typescript icon" class="languageicon">
+                        <span class="language__name">TypeScript</span>
+                    </div>
+                    <div class="language">
+                        <img src="/assets/react.png" alt="react icon" class="languageicon">
+                        <span class="language__name">React</span>
+                    </div>
+                    <div class="language">
+                        <img src="/assets/java.png" alt="java icon" class="languageicon">
+                        <span class="language__name">Java</span>
+                    </div>
+                    <div class="language">
+                        <img src="/assets/python.png" alt="python icon" class="languageicon">
+                        <span class="language__name">Python</span>
+                    </div>
+                    <div class="language">
+                        <img src="/assets/wordpress.png" alt="wordpress icon" class="languageicon">
+                        <span class="language__name">WordPress</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="projectscontainer" id="projectscontainer">
+            <h1 class="section__title">Here are some of my <span class="text--blue">projects</span></h1>
+            <ul class="projectlist">
+                <li class="project">
+                    <div class="project__wrapper">
+                        <img src="/assets/mcsnapshot.png" class="snapshot" alt="mc snapshot">
+                        <div class="project__description">
+                            <h3 class="project__description__title">Meal Chewser</h3>
+                            <h4 class="project__description__subtitle">React, Google API</h4>
+                            <p class="project__description__para">Meal Chewser is a random restaurant generator designed to make deciding where to eat fun and stress free. All you have to do is simply
+                                type in a location and some optional filters, and it will automatically choose a restaurant for you! Mealchewser is a front end application
+                                built using React and Google APIs.</p>
+                            <div class="project__description__links">
+                                <div class="project__description__link">
+                                    <a href="https://github.com/arizonaCoderz/meal-chewser" target="_blank">
+                                        <i class="fab fa-github"></i>
+                                    </a>
+                                </div>
+                                <div class="project__description__link">
+                                    <a href="https://arizonacoderz.github.io/meal-chewser/" target="_blank">
+                                        <i class="fas fa-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="project">
+                    <div class="project__wrapper">
+                        <img src="/assets/moreorlesssnapshot.png" class="snapshot" alt="more or less snapshot">
+                        <div class="project__description">
+                            <h3 class="project__description__title">More or Less</h3>
+                            <h4 class="project__description__subtitle">React, HTML, CSS, JavaScript</h4>
+                            <p class="project__description__para">More or Less is a simple trivia game where you guess "more" or "less" on a given numerical statement. You can play 5 rounds per day 
+                                and various statistics are logged automatically. Hard mode coming soon!</p>
+                            <div class="project__description__links">
+                                <div class="project__description__link">
+                                    <a href="https://github.com/DvdHLee/Moreorless" target="_blank">
+                                        <i class="fab fa-github"></i>
+                                    </a>
+                                </div>
+                                <div class="project__description__link">
+                                    <a href="https://dvdhlee.github.io/Moreorless/" target="_blank">
+                                        <i class="fas fa-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="project">
+                    <div class="project__wrapper">
+                        <img src="/assets/tttsnapshot.png" class="snapshot" alt="tic tac toe snapshot">
+                        <div class="project__description">
+                            <h3 class="project__description__title">Tic Tac Toe</h3>
+                            <h4 class="project__description__subtitle">React, Algorithms, Interactive</h4>
+                            <p class="project__description__para">This simple application lets you play against another player, a random bot, or a "smart" bot in the classic game of Tic Tac Toe. The 
+                                smart bot utilizes a backtracking algorithm known as minimax to direct decision making to find the optimal move for any situation. Test
+                                your skills against the bots or pit them against each other!</p>
+                            <div class="project__description__links">
+                                <div class="project__description__link">
+                                    <a href="https://github.com/DvdHLee/TicTacToe" target="_blank">
+                                        <i class="fab fa-github"></i>
+                                    </a>
+                                </div>
+                                <div class="project__description__link">
+                                    <a href="https://dvdhlee.github.io/TicTacToe/" target="_blank">
+                                        <i class="fas fa-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="project">
+                    <div class="project__wrapper">
+                        <img src="/assets/oldportfoliosnapshot.png" class="snapshot" alt="old portfolio snapshot">
+                        <div class="project__description">
+                            <h3 class="project__description__title">My old portfolio</h3>
+                            <h4 class="project__description__subtitle">React, HTML, CSS, JavaScript</h4>
+                            <p class="project__description__para">A trip down memory lane! See the very first portfolio I ever made.</p>
+                            <div class="project__description__links">
+                                <div class="project__description__link">
+                                    <a href="https://github.com/DvdHLee/Portfolio" target="_blank">
+                                        <i class="fab fa-github"></i>
+                                    </a>
+                                </div>
+                                <div class="project__description__link">
+                                    <a href="https://dvdhlee.github.io/Portfolio/" target="_blank">
+                                        <i class="fas fa-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <footer>
+        <div class="footercontainer">
+            <div class="footerlogocontainer">
+                <a href="#" class="footeranchor">
+                    <img src="/assets/footerlogo.png" class="footerlogo" alt="footer logo">
+                    <span class="footer__logo__popper">
+                        Top
+                        <i class="fas fa-arrow-up"></i>
+                    </span>
+                </a>
+            </div>
+            <ul class="footersociallinks">
+                <li class="footersociallink">
+                    <a href="https://linkedin.com/in/dvdhyelee/" target="_blank">LinkedIn</a>
+                </li>
+                <li class="footersociallink">
+                    <a href="https://github.com/DvdHLee" target="_blank">GitHub</a>
+                </li>
+                <li class="footersociallink">
+                    <button class="footeremailbutton">Email</button>
+                </li>
+                <li class="footersociallink">
+                    <a href="https://drive.google.com/file/d/19INX5vBFRYnA-oDf6PRfu5r0_DGz0Kji/view" target="_blank">Resume</a>
+                </li>
+            </ul>
+            <p class="copyright">Copyright © 2024 David Hyesung Lee</p>
+        </div>
+    </footer>
+    <script src="/script.js"></script>
 </body>
+
 </html>
